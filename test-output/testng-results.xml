@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="13" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13176" started-at="2018-06-20T04:29:36Z" finished-at="2018-06-20T04:29:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13176" started-at="2018-06-20T04:29:36Z" finished-at="2018-06-20T04:29:49Z">
+      <class name="com.payconiq.api.poc.GITCURDOperationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="setUp" is-config="true" duration-ms="480" started-at="2018-06-20T04:29:36Z" finished-at="2018-06-20T04:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gitHealthCheck()[pri:0, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="gitHealthCheck" duration-ms="2461" started-at="2018-06-20T04:29:36Z" finished-at="2018-06-20T04:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gitHealthCheck -->
+        <test-method status="PASS" signature="createGists()[pri:1, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="createGists" duration-ms="2576" started-at="2018-06-20T04:29:39Z" finished-at="2018-06-20T04:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGists -->
+        <test-method status="PASS" signature="retrieveGists()[pri:2, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="retrieveGists" duration-ms="696" started-at="2018-06-20T04:29:41Z" finished-at="2018-06-20T04:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveGists -->
+        <test-method status="PASS" signature="retrieveSpecificGists()[pri:3, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="retrieveSpecificGists" duration-ms="807" started-at="2018-06-20T04:29:42Z" finished-at="2018-06-20T04:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveSpecificGists -->
+        <test-method status="PASS" signature="updateGists()[pri:4, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="updateGists" duration-ms="1465" started-at="2018-06-20T04:29:43Z" finished-at="2018-06-20T04:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGists -->
+        <test-method status="PASS" signature="deleteGists()[pri:5, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="deleteGists" duration-ms="666" started-at="2018-06-20T04:29:44Z" finished-at="2018-06-20T04:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGists -->
+        <test-method status="PASS" signature="retriWithInvalidToken()[pri:7, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="retriWithInvalidToken" duration-ms="629" started-at="2018-06-20T04:29:45Z" finished-at="2018-06-20T04:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retriWithInvalidToken -->
+        <test-method status="PASS" signature="retriWithInvalidGISTID()[pri:8, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="retriWithInvalidGISTID" duration-ms="661" started-at="2018-06-20T04:29:45Z" finished-at="2018-06-20T04:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retriWithInvalidGISTID -->
+        <test-method status="PASS" signature="retriWithInvalidTokenID()[pri:9, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="retriWithInvalidTokenID" duration-ms="660" started-at="2018-06-20T04:29:46Z" finished-at="2018-06-20T04:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retriWithInvalidTokenID -->
+        <test-method status="PASS" signature="createGistInvalidBody()[pri:10, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="createGistInvalidBody" duration-ms="652" started-at="2018-06-20T04:29:47Z" finished-at="2018-06-20T04:29:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGistInvalidBody -->
+        <test-method status="PASS" signature="createGistInvalidToken()[pri:10, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="createGistInvalidToken" duration-ms="657" started-at="2018-06-20T04:29:47Z" finished-at="2018-06-20T04:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGistInvalidToken -->
+        <test-method status="PASS" signature="updateGistsNegative()[pri:11, instance:com.payconiq.api.poc.GITCURDOperationTest@14acaea5]" name="updateGistsNegative" duration-ms="704" started-at="2018-06-20T04:29:48Z" finished-at="2018-06-20T04:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateGistsNegative -->
+      </class> <!-- com.payconiq.api.poc.GITCURDOperationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
